@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #7D0A0A;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.GuestFilteredController">
+    <children>
+        <Label layoutX="111.0" layoutY="50.0" text="FILTERED PROPERTIES" textFill="#f3edc8">
+            <font>
+                <Font name="System Bold" size="36.0" />
+            </font>
+        </Label>
+        <Button fx:id="homeButton" layoutX="14.0" layoutY="22.0" mnemonicParsing="false" onAction="#buttonOnClick" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" prefHeight="31.0" prefWidth="29.0" style="-fx-background-color: #EAD196;">
+            <graphic>
+                <ImageView fitHeight="27.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="C:\Users\Admin\Desktop\Facultate\demo\src\main\resources\img\icons8-home-24.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Label layoutX="14.0" layoutY="66.0" text="HOME" textFill="#ead196">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+
+        <!-- Replace Accordion with ScrollPane and VBox -->
+        <ScrollPane fx:id="scrollPane" layoutX="146.0" layoutY="140.0" prefHeight="260.0" prefWidth="447.0" style="-fx-background-color: #7D0A0A;" stylesheets="@scroll.css">
+            <content>
+                <VBox fx:id="contentVBox" prefHeight="0.0" prefWidth="429.0" spacing="15.0" style="-fx-background-color: #7D0A0A;" stylesheets="@titled.css" />
+            </content>
+        </ScrollPane>
+        <MenuButton fx:id="typeMenuButton" layoutX="14.0" layoutY="200.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="64.0" style="-fx-background-color: #EAD196;" text="TYPE">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </MenuButton>
+        <MenuButton fx:id="bedroomsMenuButton" layoutX="14.0" layoutY="270.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: #EAD196;" text="BEDROOMS">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </MenuButton>
+        <Label fx:id="messageLabel" layoutX="146.0" layoutY="113.0" prefHeight="20.0" textFill="#ead196">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

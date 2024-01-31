@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="296.0" prefWidth="540.0" style="-fx-background-color: #F3EDC8;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.UserLeaseController">
+   <children>
+      <Label layoutX="118.0" layoutY="27.0" prefHeight="40.0" prefWidth="304.0" style="-fx-background-color: #BF3131;" text=" LEASE INFORMATION" textFill="#ead196">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="85.0" text="PROPERTY" textFill="#bf3131">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="334.0" layoutY="85.0" text="TENANT" textFill="#bf3131">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="288.0" layoutY="132.0" text="NAME: " textFill="#bf3131">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="185.0" text="PHONE:" textFill="#bf3131">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="158.0" prefHeight="27.0" prefWidth="60.0" text="EMAIL:" textFill="#bf3131">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="131.0" text="ADDRESS: " textFill="#bf3131">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="158.0" prefHeight="27.0" prefWidth="49.0" text="TYPE:" textFill="#bf3131">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="185.0" prefHeight="27.0" prefWidth="111.0" text="BEDROOMS:" textFill="#bf3131">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="212.0" prefHeight="27.0" prefWidth="60.0" text="RATE:" textFill="#bf3131">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="addressLabel" layoutX="96.0" layoutY="132.0" prefHeight="26.0">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="typeLabel" layoutX="61.0" layoutY="159.0" prefHeight="26.0">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="bedroomsLabel" layoutX="118.0" layoutY="186.0" prefHeight="26.0">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="rateLabel" layoutX="61.0" layoutY="213.0" prefHeight="26.0">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" layoutX="349.0" layoutY="132.0" prefHeight="26.0" >
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="emailLabel" layoutX="349.0" layoutY="159.0" prefHeight="26.0" >
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="phoneLabel" layoutX="355.0" layoutY="186.0" prefHeight="26.0" >
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
