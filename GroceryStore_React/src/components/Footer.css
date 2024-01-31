@@ -1,0 +1,16 @@
+/* Footer.css */
+
+/* Base styles for the footer */
+footer {
+  background-color: #333;
+  color: #8e8585;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media query for small screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+  footer {
+    padding: 10px;
+  }
+}

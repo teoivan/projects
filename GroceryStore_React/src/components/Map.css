@@ -1,0 +1,52 @@
+
+#mapDemo {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+
+  .input-group{
+    position:fixed;
+    z-index: 401; 
+    width: 100vw;
+  }
+  
+  @media only screen and (min-width: 501px) {
+      .input-group {
+          width: 500px;
+      }
+  } 
+  
+  #panelBtn{
+    position:fixed;
+    z-index: 401;
+  } 
+
+  #panel{
+    position: fixed;
+    z-index: 401;
+    width: 100vw;
+    left: -500px;
+    top:100px;
+    bottom: 0;
+    overflow-y: scroll;
+    background: #FFFFFF;
+    transition: all 0.3s;
+  }
+  
+  
+  @media only screen and (min-width: 500px) {
+      #panel {
+          width: 500px;
+          left: -500px;
+      }
+  } 
+  
+  #panel.active {
+      left: 0;
+  } 
+  
+  
+  .ui-widget-content{
+    z-index:401;
+  }

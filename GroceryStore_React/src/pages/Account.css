@@ -1,0 +1,60 @@
+.account-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8f5de;
+    color: #000;
+  }
+
+  
+  .auth-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #b2c99f;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #777;
+    border-radius: 4px;
+   
+
+  }
+  .error{
+    margin-bottom: 20px;
+    color: #bd3138;
+  }
+  .sign {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .isSign{
+    text-align: center;
+    font-weight: 900;
+    font-size: 5vh;
+  }
+  
+  
+  
+  
