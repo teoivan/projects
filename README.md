@@ -10,13 +10,13 @@ These are my projects accomplished over time.
 
 ## Reantal Property System
   This JavaFX application serves as a Rental Property System with three user roles: Guest, User, and Admin. The system incorporates a MySQL database for storing application data. Key features for each role are as follows:
-  *Guest Mode
+  * Guest Mode
   Capabilities:  View both available and unavailable properties, apply filters for property selection.
   Restrictions: Cannot rent properties or access lease information.
 
-  *User Mode
+  * User Mode
   Capabilities: Signup or login to use the system efficiently, rent properties and access lease information for rented properties.
   Features: View only available properties, apply filters.
 
-  *Admin Mode
+  * Admin Mode
   Capabilities: Login with specific credentials, view all lease information, and add new properties to the system.
