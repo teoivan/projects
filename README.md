@@ -27,7 +27,7 @@ This is my latest project and it's a grocery store web app that aims to simplify
    `CSS` is used for styling to enhance the visual appeal and user experience.
 * _**Backend**_\
    `Node.js` and `Express.js` handle the server-side logic, ensuring smooth communication between the frontend and database.
-* **Database**\
+* _**Database**_\
    `MySQL` is utilized to store and retrieve user data, shopping lists, and other essential 		information.
 
 ##
