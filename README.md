@@ -37,12 +37,11 @@ This is my latest project and it's a grocery store web app that aims to simplify
   * **Guest Mode**\
 _Capabilities:_  View both available and unavailable properties, apply filters for property selection.\
 _Restrictions:_ Cannot rent properties or access lease information.
-##
-##
-
   * **User Mode**\
     _Capabilities:_ Signup or login to use the system efficiently, rent properties and access lease information for rented properties.\
     _Features:_ View only available properties, apply filters.
 
   * **Admin Mode**\
   _Capabilities:_ Login with specific credentials, view all lease information, and add new properties to the system.
+##
+##
