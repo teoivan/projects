@@ -32,7 +32,7 @@ This is my latest project and it's a grocery store web app that aims to simplify
 
 ##
 ##
-## Reantal Property System
+## Rental Property System
   This `JavaFX` application serves as a Rental Property System with three user roles: Guest, User, and Admin. The system incorporates a `MySQL` database for storing application data. Key features for each role are as follows:
   * **Guest Mode**\
 _Capabilities:_  View both available and unavailable properties, apply filters for property selection.\
